@@ -1,33 +1,82 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #5a5353;
-    color: whitesmoke;
+    background-color: #cac6c6;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
 }
-.imgContainer img {
-    width: 100%;
-    height: 400px;
-}
+
 .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.search-box {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.search-box input {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    padding: 0 15px;
+    color: #444;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+.images {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.flight {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-top: 30px;
-    padding: 0 20px;
+.image-box {
+    margin: 12px;
+    height: 300px;
+    width: 240px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px #0000001a;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
 }
 
-.flight.title {
-    font-weight: bolder;
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-box h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #6b6a6a98;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
 }

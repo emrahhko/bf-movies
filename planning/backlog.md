@@ -2,12 +2,13 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+> the posters of different movies.
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+> the possibility to click on the poster and have information about th movie.
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+> Possibility to search not only by the movie's name but the date, name of the
+> director etc...

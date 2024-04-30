@@ -4,14 +4,17 @@
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+- [Image gallery](#image-gallery)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Features](#features)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
 
 ## General info
 
@@ -20,7 +23,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](./assets/screenshot.png)
 
 ## Technologies
 
@@ -36,6 +39,11 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
+export const createImage = (image) => {
+    const imageBox = document.createElement('div');
+    imageBox.classList.add('image-box');
+    imageBox.id = image.id;
+
 
 ```
 
@@ -54,8 +62,10 @@ To-do list:
 
 ## Status
 
-Project is: _in progress_
+Project is: _done_
 
 ## Inspiration
 
 ## Contact
+
+- [Emrah](https://github.com/emrahhko)
