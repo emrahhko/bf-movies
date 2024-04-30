@@ -3,26 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movies</title>
         <link rel="stylesheet" href="./styles/style.css" />
-        <title>Flights</title>
+        <link rel="icon" href="./assets/clapperboard.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&family=Autour+One&family=Cinzel&family=Cute+Font&family=Jersey+25&family=Lato:wght@300&family=Montserrat&family=Noto+Sans+Display:wght@300&family=Open+Sans:wght@300&family=Orbitron&family=Oswald:wght@500&family=PT+Sans+Caption&family=Poppins:ital,wght@1,600&family=Protest+Revolution&family=Rajdhani:wght@500&family=Raleway:wght@200&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sixtyfour&family=Source+Code+Pro:wght@300&family=Titillium+Web&family=Ubuntu+Mono&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <main>
-            <div class="img">
-                <img src="./assets/flight.jpeg" alt="flight" />
+        <div class="container">
+            <div class="search-box">
+                <input id="input" type="text" placeholder="Search a movie" />
             </div>
-            <div id="parent">
-                <div class="flight test">
-                    <div class="name">Name</div>
-                    <div class="plane">Plane</div>
-                    <div class="departureDate">Departure Date</div>
-                    <div class="origin">Origin</div>
-                    <div class="arrivalDate">Arrival Date</div>
-                    <div class="destination">Destination</div>
-                    <div class="stops">Stops</div>
-                </div>
-            </div>
-        </main>
+            <div class="images"></div>
+        </div>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
